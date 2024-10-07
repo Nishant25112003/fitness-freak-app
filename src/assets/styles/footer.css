@@ -1,0 +1,68 @@
+footer{
+    background-image: url('../images/footer.png');
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    gap: 20px;
+    height: fit-content;
+    padding: 40px 20px;
+}
+.footer-content >ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+.footer-content > h1{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 50px;
+background: linear-gradient(90deg, #FF4300 -6.33%, #FF6400 103.92%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.footer-content > p{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 166.5%;
+text-align: center;
+color: rgba(255, 255, 255, 0.8);
+list-style: none;
+}
+.footer-content{
+    max-width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.copyright{
+    display:  flex;
+    gap:10px;
+}
+.copyright > li{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 166.5%;
+text-align: center;
+list-style: none;
+color: rgba(255, 255, 255, 0.7);
+
+
+}

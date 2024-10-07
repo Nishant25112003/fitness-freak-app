@@ -1,0 +1,58 @@
+.services-container {
+    background-color: #17181A;
+    padding: 80px 0px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative; /* Necessary for absolute positioning inside */
+    overflow: hidden; /* Prevent content overflow */
+}
+
+.services-container > h2 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 170.9%;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.services-container > p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 170.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    max-width: 60vw;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.services-container > .servicesImg {
+    z-index: 2; /* Ensure they are behind other elements */
+    margin-top: 20px;
+    border: solid 4px #FF4601;
+    border-radius: 8px;
+
+}
+
+.rec1, .rec2 {
+    position: absolute;
+    right: 0;  /* Align to the right */
+}
+
+.rec1 {
+    top: 66%;  /* Slightly above rec2 */
+}
+
+.rec2 {
+    top: 84%;  /* Position rec2 a bit lower */
+}

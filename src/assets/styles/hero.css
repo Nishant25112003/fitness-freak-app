@@ -1,0 +1,111 @@
+/* Dropdown styling */
+.dropdown {
+    position: absolute; 
+    top: 140%; 
+    z-index: 10; 
+    width: 140px;
+    height: fit-content;
+    background-color: transparent; /* Keep background transparent */
+    border: solid 3px rgba(255, 255, 255, 0.9); /* Border styling */
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+
+.dropdown-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding: 0 20px 10px; /* Consolidated padding */
+    width: max-content; /* Use maximum content width */
+}
+
+/* List items within dropdown */
+.dropdown-items li {
+    list-style: none; /* Remove default list styling */
+    font-family: 'Outfit';
+    color: rgba(255, 255, 255, 0.9);
+    text-align: left;
+    padding-top: 12px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Content styling */
+.content {
+    position: absolute;
+    display: flex;
+    align-items: flex-start; /* Align items to the left */
+    flex-direction: column;
+    top: 25%;
+    left: 15%;
+
+}
+
+/* Background image styling */
+.bg-image {
+    background-image: url('../images/main.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    color: white; 
+}
+
+/* Main heading styling */
+.main-heading {
+    font-family: 'Orbitron', sans-serif; /* Ensure font is applied correctly */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 60px; /* Adjust line-height for better spacing */
+    text-align: left; /* Remove redundant text-align */
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    max-width: 600px;
+}
+
+/* Paragraph styling */
+.content > .para {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 170.9%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin-top: 48px;
+    text-align: left;
+}
+
+/* Free trial button styling */
+.free-trial {
+    background: #FF4601;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 14px 36px;
+    max-width: fit-content;
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-top: 60px;
+    border: solid 0.4px white;
+}
+
+/* Special span styling */
+#xyz {
+    color: transparent; /* Make the text transparent */
+    -webkit-text-stroke: 2px #FF6400; /* Set the stroke color and width */
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 109px;
+    letter-spacing: 0.04em;
+}

@@ -1,0 +1,150 @@
+/* classes.css */
+.classes {
+    background-image: url('../images/classes.png'); /* Check this path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.classes > h1 {
+    font-family: 'Outfit', sans-serif; /* Ensure this font is available */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 170.9%;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 20px;
+}
+
+.cards-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    width:100%;
+    height: fit-content;
+}
+@media (max-width: 973px) { /* Adjust the width as needed */
+    .cards-div {
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align cards */
+    }
+}
+.card {
+    position: relative; /* Needed for absolute positioning of children */
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.foreground-image {
+    border-radius: 10px; /* Optional */
+    width: 400px;
+}
+.type-students, .heading-time, .instructor-name, .btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+.type-students> li, .heading-time li, .instructor-name{
+list-style: none; /* Use the circle bullet */
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140.9%;
+/* or 27px */
+letter-spacing: 0.02em;
+
+color: rgba(255, 255, 255, 0.8);
+}
+.students-li{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.heading-time h3{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 170.9%;
+/* identical to box height, or 41px */
+letter-spacing: 0.02em;
+
+color: rgba(255, 255, 255, 0.9);
+ 
+}
+
+.info{
+margin-left: 10px;
+}
+.info > li{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170.9%;
+/* or 27px */
+letter-spacing: 0.02em;
+
+color: rgba(255, 255, 255, 0.8);
+
+
+}
+.learn-more, .start-free, .see-more{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 170.9%;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+
+}
+.learn-more{
+background: linear-gradient(90deg, #FF4300 -6.33%, #FF6400 103.92%);
+border: solid #FFFFFF 1px;
+}
+.see-more{
+    padding: 10px 60px;
+    background: linear-gradient(90deg, #FF4300 -6.33%, #FF6400 103.92%);
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+.start-free{
+    background-color: transparent;
+    border: solid #FFFFFF 1px;
+}
+.btns{
+    margin-top: 10px;
+ 
+    justify-content: flex-start;
+    gap: 20px
+}
+.btns> button{
+ 
+    padding: 8px 26px;
+    border-radius: 8px;
+}
+.type-students{
+    margin-top: 20px;
+}

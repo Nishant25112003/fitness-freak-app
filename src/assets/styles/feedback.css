@@ -1,0 +1,78 @@
+.feedback{
+    background-image: url('../images/classes.png'); /* Check this path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.main-feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Default: column */
+    gap: 40px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 900px) {
+    .main-feedback {
+        flex-direction: row;
+    }
+}
+
+.feedback-heading{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 84px;
+/* identical to box height, or 210% */
+text-align: center;
+text-transform: capitalize;
+/* Lite/Lite 100 */
+color: #FFFFFF;
+}
+.services-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 40px 40px;
+    min-height: 40vh;
+    max-width: 14vw;
+    min-width: 240px;
+    background-color: rgba(1, 10, 12, 0.4);
+    border-radius: 8px;
+    border: solid 2px #FF4601;
+
+}
+.services-card > p, .profile> p{
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+.rating, .profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:6px;
+}
+.profile{
+    padding-top: 40px;
+}
